@@ -1,0 +1,37 @@
+@font-face{
+	font-family: cass;
+src: url('DIGITALDREAM.ttf');
+}
+@font-face{
+	font-family: use;
+src: url('DIGITALDREAMSKEWNARROW.ttf');
+}
+
+*{ 
+	background-color: rgb(32, 32, 32);
+	box-sizing: border-box;
+}
+#main{
+	margin-top: 20%; display: flex; justify-content: center;
+}
+#myclk{ min-width: 600px;
+
+}
+#time{ 	border: 5px solid rgb(24, 157, 180);
+	border-radius: 0px 30px 0px 30px;  box-shadow: 1px -1px 20px 0px rgb(130, 180, 189);  background-color: rgb(198, 200, 204); display: flex; align-items: center; justify-content: center; text-align: center; 
+
+}
+#hours, #mins { padding: 10px;  font-family: cass; text-shadow:  5px 2px 15px rgb(99, 89, 89); margin: 0; color:rgb(3, 120, 141); background-color: rgb(198, 200, 204); 
+	font-size: 7rem;
+}
+#secs{font-family: cass; padding: 10px;  margin-left: 15px;  text-shadow:  5px 2px 15px rgb(99, 89, 89); color : rgb(3, 120, 141); background-color: rgb(198, 200, 204);
+	font-size: 2rem;
+
+}
+#day{
+	display: flex;  justify-content: center;
+}
+#date , #da{font-size: 2rem; display: flex; align-items: center; justify-content: center;
+	font-family: use; color:rgb(3, 120, 141);  margin-right: 5%; padding: 20px; background-color: rgb(198, 200, 204);border-radius: 0px 30px 0px 30px;
+	border: 3px solid rgb(24, 157, 180);
+}
